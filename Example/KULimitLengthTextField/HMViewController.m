@@ -7,8 +7,10 @@
 //
 
 #import "HMViewController.h"
+#import "KULimitLengthTextField.h"
 
 @interface HMViewController ()
+@property (weak, nonatomic) IBOutlet KULimitLengthTextField *textField;
 
 @end
 
@@ -17,7 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.textField.inputMaxLength = 10;
+    
+	
 }
 
 - (void)didReceiveMemoryWarning

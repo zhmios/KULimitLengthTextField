@@ -1,0 +1,23 @@
+PODS:
+  - KULimitLengthTextField (0.1.0):
+    - Masonry (= 1.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - KULimitLengthTextField (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  KULimitLengthTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KULimitLengthTextField: d1d8cbbf4e1388627b4b04c1155b5ae708821dc5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: cb01ac911c2f93c7af5d2aa0883e7be2a3a15d8b
+
+COCOAPODS: 1.7.5

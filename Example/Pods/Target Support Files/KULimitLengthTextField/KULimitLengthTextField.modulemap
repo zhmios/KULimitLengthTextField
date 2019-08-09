@@ -1,0 +1,6 @@
+framework module KULimitLengthTextField {
+  umbrella header "KULimitLengthTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
