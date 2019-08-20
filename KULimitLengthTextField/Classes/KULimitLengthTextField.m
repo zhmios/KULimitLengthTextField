@@ -37,7 +37,7 @@
 
 - (void)initTextField{
     
-    self.textField = [[UITextField alloc]init];
+    self.textField = [[KUPasteTextField alloc]init];
     self.textField.delegate = self;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidChangeTextField:) name:UITextFieldTextDidChangeNotification object:self.textField];
     [self addSubview:self.textField];
@@ -47,6 +47,13 @@
         
     }];
     
+}
+
+- (void)setDisableTextFieldEditMenu:(BOOL)disableTextFieldEditMenu{
+    
+    _disableTextFieldEditMenu = disableTextFieldEditMenu;
+   
+    self.textField.disableTextFieldEditMenu = disableTextFieldEditMenu;
 }
 
 - (void)userDidChangeTextField:(NSNotification *)not{

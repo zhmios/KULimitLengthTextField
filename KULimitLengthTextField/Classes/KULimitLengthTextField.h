@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KUPasteTextField.h"
+
 @protocol kuLimitLengthTextFieldDelegate<NSObject>
 
 @optional
@@ -20,7 +22,7 @@
 
 @interface KULimitLengthTextField : UIView<UITextFieldDelegate>
 
-@property(nonatomic,strong)UITextField *textField;
+@property(nonatomic,strong)KUPasteTextField *textField;
 @property(nonatomic,strong)UIFont *fount;
 @property(nonatomic,strong)UIColor *textColor;
 @property(nonatomic,strong)NSString *placeholderString;
@@ -31,5 +33,9 @@
 @property(nonatomic,strong)NSString *filterSpecialCharacterString;
 
 @property(nonatomic,weak)id<kuLimitLengthTextFieldDelegate>delegate;
+/**
+ 禁用粘贴复制的menu
+ */
+@property(nonatomic,assign)BOOL disableTextFieldEditMenu;
 
 @end

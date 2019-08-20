@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KULimitLengthTextField: d1d8cbbf4e1388627b4b04c1155b5ae708821dc5
+  KULimitLengthTextField: 3cd62fa683276e92af4722fc03eb9b796b915780
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: cb01ac911c2f93c7af5d2aa0883e7be2a3a15d8b

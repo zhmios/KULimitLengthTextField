@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KULimitLengthTextField'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'KULimitLengthTextField可以对输入进行长度限制，并且可以过滤一些特殊字符'
 
 # This description is used to generate tags and improve search results.

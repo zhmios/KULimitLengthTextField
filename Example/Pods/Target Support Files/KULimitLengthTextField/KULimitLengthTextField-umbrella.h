@@ -11,6 +11,7 @@
 #endif
 
 #import "KULimitLengthTextField.h"
+#import "KUPasteTextField.h"
 
 FOUNDATION_EXPORT double KULimitLengthTextFieldVersionNumber;
 FOUNDATION_EXPORT const unsigned char KULimitLengthTextFieldVersionString[];
